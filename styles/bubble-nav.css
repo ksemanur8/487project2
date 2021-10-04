@@ -1,0 +1,33 @@
+/* Bubble navigation styling */
+.bubble-nav {
+  position: fixed;
+  top: 90%;
+  left: 40%;
+  display: flex;
+  flex-direction: row;
+  z-index: 100;
+}
+
+.bubble-nav a {
+  position: relative;
+  margin-left: -20px;
+}
+
+.bubble {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #fff;
+  border-radius: 3rem;
+}
+
+.bubble:hover {
+  background: darkgray;
+}
+
+.light-bubble {
+  background: #fff;
+}
+
+.dark-bubble {
+  background: rgb(99, 99, 99);
+}

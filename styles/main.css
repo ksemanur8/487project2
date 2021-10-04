@@ -1,0 +1,42 @@
+/* Font settings */
+h1 {
+  font-family: bree, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: bree, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* Flex settings */
+.display-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+
+.container-0 {
+  background-color: rgba(119, 15, 41, 0.884);
+  max-width: 60%;
+  max-height: 40%;
+  margin: 0 auto;
+}

@@ -1,0 +1,88 @@
+/* Source: https://www.jqueryscript.net/slider/automatic-fullscreen-carousel.html */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 1.6;
+  background: #000000;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.holder {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10000vw;
+  height: 100vh;
+  transition: left 1s;
+}
+
+.holder div {
+  float: left;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 30px;
+}
+
+.steps {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+  color: white;
+  padding: 20px 30px;
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+#slide-0 {
+  background-image: url("../images/sa-05.jpg");
+}
+
+#slide-1 {
+  background-image: url("../images/sa-03.jpeg");
+}
+
+#slide-2 {
+  background-image: url("../images/sa-11.jpg");
+}
+
+.steps {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+}
