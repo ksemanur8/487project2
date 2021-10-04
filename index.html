@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Analysis of Studio Ghibli</title>
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/slideshow.css" />
-    <link rel="stylesheet" href="./styles/bubble-nav.css" />
+    <link rel="stylesheet" href="./styles/fullpage.css" />
     <link rel="stylesheet" href="https://use.typekit.net/xje1ydk.css" />
     <script
       src="https://kit.fontawesome.com/3941123ac2.js"
@@ -15,37 +14,13 @@
     ></script>
   </head>
   <body>
-    <!--Nav bubbles-->
-    <div class="bubble-nav">
-      <a href="#slide-0">
-        <div class="bubble"></div>
-      </a>
-      <a href="#slide-1">
-        <div class="bubble"></div>
-      </a>
-      <a href="#slide-2">
-        <div class="bubble"></div>
-      </a>
-      <a href="#slide-3">
-        <div class="bubble"></div>
-      </a>
-      <a href="#slide-4">
-        <div class="bubble"></div>
-      </a>
-      <a href="#slide-5">
-        <div class="bubble"></div>
-      </a>
-    </div>
     <!--Slideshow setup-->
-    <div class="slideshow">
-      <div class="holder">
-        <div
-          id="slide-0"
-          class="slide display-flex flex-column justify-center align-center"
-        >
+    <div id="fullpage">
+      <div class="section">
+        <div id="slide-1" class="slide">
           <div
             class="
-              container-0
+              container-1
               display-flex
               flex-column
               justify-center
@@ -56,40 +31,25 @@
             <h1>An analysis of Studio Ghibli</h1>
           </div>
         </div>
-        <div
-          id="slide-1"
-          class="slide display-flex flex-column justify-center align-center"
-        >
-          <h1>Animation</h1>
+        <div id="slide-2" class="slide">
+          <div
+            class="
+              container-2
+              display-flex
+              flex-column
+              justify-center
+              align-center
+            "
+          >
+            <h1>Introduction to Studio Ghibli</h1>
+          </div>
         </div>
-        <div
-          id="slide-2"
-          class="slide display-flex flex-column justify-center align-center"
-        >
-          <h1>Ghibli</h1>
-        </div>
-        <div
-          id="slide-3"
-          class="slide display-flex flex-column justify-center align-center"
-        >
-          <h1>Immersive Realism</h1>
-        </div>
-        <div
-          id="slide-4"
-          class="slide display-flex flex-column justify-center align-center"
-        >
-          <h1>Music</h1>
-        </div>
-        <div
-          id="slide-5"
-          class="slide display-flex flex-column justify-center align-center"
-        >
-          <h1>Filmography</h1>
-        </div>
+        <div id="slide-3" class="slide">Slide 3</div>
+        <div id="slide-4" class="slide">Slide 4</div>
+        <div id="slide-5" class="slide">Slide 5</div>
+        <div id="slide-6" class="slide">Slide 6</div>
       </div>
     </div>
-    <a href="#" class="prev"><i class="fas fa-long-arrow-alt-left"></i></a>
-    <a href="#" class="next"><i class="fas fa-long-arrow-alt-right"></i></a>
 
     <!--Scripts-->
     <script
@@ -98,7 +58,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./scripts/main.js"></script>
-    <script src="./scripts/slideshow.js"></script>
-    <script src="./scripts/bubble-nav.js"></script>
+    <script src="./scripts/fullpage.js"></script>
   </body>
 </html>

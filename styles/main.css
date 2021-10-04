@@ -34,9 +34,52 @@ h3 {
   align-items: center;
 }
 
-.container-0 {
+/* Slide backgrounds */
+#slide-1 {
+  background-image: url("../images/sa-05.jpg");
+}
+
+#slide-2 {
+  background-image: url("../images/pm-00.jpg");
+}
+
+#slide-3 {
+  background-image: url("../images/sa-11.jpg");
+}
+
+#slide-4 {
+  background-image: url("../images/sa-00.jpeg");
+}
+
+#slide-5 {
+  background-image: url("../images/sa-03.jpeg");
+}
+
+#slide-6 {
+  background-image: url("../images/hmc-03.jpg");
+}
+
+.container-1 {
   background-color: rgba(119, 15, 41, 0.884);
   max-width: 60%;
   max-height: 40%;
   margin: 0 auto;
+  padding: 60px 0px;
+  color: white;
+  text-align: center;
+}
+
+.container-1 > h1,
+.container-1 > h2 {
+  margin: 20px;
+}
+
+.container-2 {
+  background-color: rgba(103, 49, 105, 0.884);
+  max-width: 60%;
+  max-height: 40%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  color: white;
+  text-align: center;
 }
