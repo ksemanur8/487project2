@@ -20,12 +20,18 @@ h3 {
   font-size: 20px;
 }
 
-p {
+p,
+li {
   font-family: proxima-nova, sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 15px;
   line-height: 25px;
+}
+
+a {
+  text-decoration: underline;
+  color: #fff;
 }
 
 /* Flex settings */
@@ -70,7 +76,13 @@ p {
 }
 
 #slide-6 {
-  background-image: url("../images/hmc-03.jpg");
+  background-image: url("../images/kiki-02.jpg");
+}
+#slide-7 {
+  background-image: url("../images/kiki-00.jpeg");
+}
+#slide-8 {
+  background-image: url("../images/sa-06.jpg");
 }
 
 .container-1 {
@@ -86,6 +98,12 @@ p {
 .container-1 > h1,
 .container-1 > h2 {
   margin: 20px;
+}
+
+#site-bg {
+  height: 50px;
+  width: 200px;
+  border-style: none;
 }
 
 .container-2 {
@@ -107,7 +125,43 @@ p {
 }
 
 #hm-portrait {
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 25%;
+  max-height: 25%;
   padding: 20px;
+}
+
+.container-3 {
+  background-color: rgba(11, 48, 97, 0.904);
+  max-width: 80%;
+  max-height: 40%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  color: white;
+}
+
+#cont-3-inner {
+  padding: 0px 20px;
+  padding-bottom: 30px;
+}
+
+#immersive-realism {
+  padding: 20px;
+}
+
+.container-7 {
+  background-color: rgba(184, 167, 17, 0.904);
+  max-width: 80%;
+  max-height: 60%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  color: white;
+}
+
+.container-8 {
+  background-color: rgba(25, 104, 42, 0.904);
+  max-width: 80%;
+  max-height: 60%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  color: white;
 }

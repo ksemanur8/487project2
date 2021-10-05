@@ -7,6 +7,7 @@
     <title>Analysis of Studio Ghibli</title>
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/fullpage.css" />
+    <link rel="stylesheet" href="./styles/jquery.quiz.css" />
     <link rel="stylesheet" href="https://use.typekit.net/xje1ydk.css" />
     <script
       src="https://kit.fontawesome.com/3941123ac2.js"
@@ -29,6 +30,13 @@
           >
             <h2>What makes a good animation film?</h2>
             <h1>An analysis of Studio Ghibli</h1>
+            <iframe
+              src="./sounds/playlist.mp3"
+              type="audio/mpeg"
+              allow="autoplay"
+              style="display: none"
+              id="site-bg"
+            ></iframe>
           </div>
         </div>
         <div id="slide-2" class="slide">
@@ -41,7 +49,7 @@
               align-center
             "
           >
-            <h2>What is Studio Ghibli?</h2>
+            <h2 class="slide-title">An Introduction to Studio Ghibli</h2>
             <div id="cont-2-inner" class="display-flex">
               <p id="sg-intro">
                 <!--Source: https://tokyotreat.com/blog/history-of-studio-ghibli-->
@@ -71,10 +79,118 @@
             </div>
           </div>
         </div>
-        <div id="slide-3" class="slide"></div>
-        <div id="slide-4" class="slide"></div>
-        <div id="slide-5" class="slide"></div>
-        <div id="slide-6" class="slide"></div>
+        <div id="slide-3" class="slide">
+          <div
+            class="
+              container-3
+              display-flex
+              flex-column
+              justify-center
+              align-center
+            "
+          >
+            <h2 class="slide-title">Immersive Realism</h2>
+            <div id="cont-3-inner" class="display-flex">
+              <p id="immersive-realism">
+                <!--Source: https://tokyotreat.com/blog/history-of-studio-ghibli-->
+                Studio Ghibli was founded in 1985 in Tokyo by Isao Takahata
+                (screenwriter, director, producer), Toshio Suzuki (producer),
+                and Hayao Miyazaki (animator, director, producer, screenwriter,
+                author, manga artist). The name Studio Ghibli was based on the
+                Arabic name for "hot sahara wind" because the founders wanted
+                Studio Ghibli to blow new wind through the anime industry.
+                <br /><br />
+                At the time of Studio Ghibli's founding, anime was looked down
+                upon in the film industry. The breakthrough for Studio Ghibli
+                was in 1989 with the movie Kiki's Delivery Service. After this
+                Miyazaki and producer Suzuki continued to make many more hits
+                after Kiki.
+                <br /><br />
+                Studio Ghibli films continue to be beloved by children and
+                adults alike for many reasons including the art style,
+                non-stereotypical characters, and the way they combine magic
+                with realism.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="slide-4" class="slide">Natsukashii</div>
+        <div id="slide-5" class="slide">Character Development</div>
+        <div id="slide-6" class="slide">Film Collection</div>
+        <div id="slide-7" class="slide">
+          <div
+            class="
+              container-7
+              display-flex
+              flex-column
+              justify-center
+              align-center
+            "
+          >
+            <div id="quiz">
+              <div id="quiz-header">
+                <h2>Quiz time!</h2>
+              </div>
+              <div id="quiz-start-screen">
+                <p>
+                  <a href="#" id="quiz-start-btn" class="quiz-button">Start</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="slide-8" class="slide">
+          <div
+            class="
+              container-8
+              display-flex
+              flex-column
+              justify-center
+              align-center
+            "
+          >
+            <h2 class="slide-title">Sources</h2>
+            <ul>
+              <li>
+                Miyazaki Hayao and the Aesthetics of Imagination: Nostalgia and
+                Memory in Spirited Away by
+                <a
+                  href="https://www.tandfonline.com/doi/full/10.1080/10357823.2015.1056086"
+                  >Alistair Swale</a
+                >
+              </li>
+              <li>
+                The Immersive Realism of Studio Ghibli by
+                <a
+                  href="https://www.youtube.com/watch?v=v6Q6y4-qKac&t=122s&ab_channel=AsherIsbrucker"
+                >
+                  Asher Ishbrucker</a
+                >
+              </li>
+              <li>
+                A Brief History of Studio Ghibli by
+                <a href="https://tokyotreat.com/blog/history-of-studio-ghibli"
+                  >Jojo</a
+                >
+              </li>
+              <li>
+                Why is Studio Ghibli so popular? by
+                <a
+                  href="http://thecaptainslog.org/2020/11/17/why-is-studio-ghibli-so-popular/"
+                  >Ashley McMillan</a
+                >
+              </li>
+              <li>
+                How to Develop a Fictional Character: 6 Tips for Writing Great
+                Characters by
+                <a
+                  href="https://www.masterclass.com/articles/writing-tips-for-character-development#what-is-character-development"
+                  >MasterClass staff</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -84,7 +200,9 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-    <script src="./scripts/main.js"></script>
+
     <script src="./scripts/fullpage.js"></script>
+    <script src="./scripts/jquery.quiz-min.js"></script>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
