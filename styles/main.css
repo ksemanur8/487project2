@@ -20,6 +20,14 @@ h3 {
   font-size: 20px;
 }
 
+p {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+}
+
 /* Flex settings */
 .display-flex {
   display: flex;
@@ -30,8 +38,14 @@ h3 {
 .justify-center {
   justify-content: center;
 }
+.justify-space {
+  justify-content: space-between;
+}
 .align-center {
   align-items: center;
+}
+.slide {
+  background-size: cover;
 }
 
 /* Slide backgrounds */
@@ -60,7 +74,7 @@ h3 {
 }
 
 .container-1 {
-  background-color: rgba(119, 15, 41, 0.884);
+  background-color: rgba(119, 15, 41, 0.904);
   max-width: 60%;
   max-height: 40%;
   margin: 0 auto;
@@ -75,11 +89,25 @@ h3 {
 }
 
 .container-2 {
-  background-color: rgba(103, 49, 105, 0.884);
-  max-width: 60%;
-  max-height: 40%;
+  background-color: rgba(103, 49, 105, 0.904);
+  max-width: 80%;
+  max-height: 60%;
   margin: 0 auto;
   padding: 60px 0px;
   color: white;
-  text-align: center;
+}
+
+#cont-2-inner {
+  padding: 0px 20px;
+  padding-bottom: 30px;
+}
+
+#sg-intro {
+  padding: 20px;
+}
+
+#hm-portrait {
+  max-width: 30%;
+  max-height: 30%;
+  padding: 20px;
 }

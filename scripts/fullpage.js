@@ -9,6 +9,8 @@
  * Copyright (C) 2018 http://alvarotrigo.com/fullPage - A project by Alvaro Trigo
  */
 
+var ignoreScrollBehavior = true;
+
 (function( root, window, document, factory, undefined) {
     if( typeof define === 'function' && define.amd ) {
         // AMD. Register as an anonymous module.
@@ -2390,12 +2392,13 @@
             
             /*jshint validthis:true */
             if (hasClass(this, SLIDES_PREV)) {
-                if(isScrollAllowed.m.left){
+                
+                if(isScrollAllowed.m.left || ignoreScrollBehavior){
                     moveSlideLeft(section);
                     
                 }
             } else {
-                if(isScrollAllowed.m.right){
+                if(isScrollAllowed.m.right || ignoreScrollBehavior){
                     moveSlideRight(section);
                 }
             } 
