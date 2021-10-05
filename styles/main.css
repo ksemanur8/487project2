@@ -139,12 +139,45 @@ a {
   color: white;
 }
 
-#cont-3-inner {
+.cont-inner {
   padding: 0px 20px;
   padding-bottom: 30px;
 }
 
-#immersive-realism {
+.inner-text {
+  padding: 20px;
+}
+
+.container-4 {
+  background-color: rgba(7, 71, 87, 0.904);
+  max-width: 80%;
+  max-height: 60%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  color: white;
+}
+
+.container-5 {
+  background-color: rgba(49, 28, 73, 0.904);
+  max-width: 80%;
+  max-height: 60%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  color: white;
+}
+
+.container-6 {
+  background-color: rgba(85, 6, 32, 0.904);
+  max-width: 80%;
+  max-height: 60%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  color: white;
+}
+
+#film-collection {
+  max-width: 30%;
+  max-height: 30%;
   padding: 20px;
 }
 

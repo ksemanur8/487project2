@@ -8,6 +8,10 @@ $(document).ready(function() {
 	$.fn.fullpage.setAllowScrolling(false);
 });
 
+new jBox('Tooltip', {
+	attach: '.tooltip'
+  });
+
 $('#quiz').quiz({
     questions: [
       {
